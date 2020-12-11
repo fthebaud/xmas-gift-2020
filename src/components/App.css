@@ -1,0 +1,84 @@
+.app {
+    background-color: #38c172ff;
+    width: 100vw;
+    height: 100vh;
+    color: white;
+    font-size: 20px;
+    position: relative;
+    overflow: hidden;
+}
+
+p {
+    text-align: center;
+}
+
+P.swipe {
+    margin-bottom: 0rem;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.gift {
+    margin-bottom: -2rem;
+}
+
+.full-width {
+    width: 100%;
+    max-width: 100%;
+    border: 1px solid white;
+    border-radius: 4px;
+}
+
+.picture + .picture {
+    margin-top: 1rem;
+}
+
+.separator {
+    width: 50%;
+    border-top: solid 1px white;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100vw;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle {
+    width: 1rem;
+    height: 1rem;
+    border-radius: 1rem;
+    border: 1px solid white;
+}
+
+.circle + .circle {
+    margin-left: 1rem;
+}
+
+.circle.selected {
+    background-color: white;
+}
+
+.slide3 {
+    padding-top: 1rem;
+}
+
+.slide5,
+.slide4 {
+    padding-top: 3rem;
+}
+
+.slide5 .picture + .picture,
+.slide4 .picture + .picture {
+    margin-top: 2rem;
+}

@@ -1,0 +1,8 @@
+.slide {
+    width: 100vw;
+    height: 100vh;
+    padding: 2rem;
+    transition: transform 0.3s ease-in-out;
+    overflow: hidden;
+    text-align: center;
+ }
