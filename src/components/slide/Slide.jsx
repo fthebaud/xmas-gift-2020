@@ -22,7 +22,7 @@ const getTranslation = (id, currentId) => {
 const Slide = ({ slideId, currentSlideId, children, css }) => {
     if (isClose(slideId, currentSlideId)) {
         return (
-            <div className={`${css} slide`}
+            <div className={`slide ${css ? css : ''}`}
                 style={{
                     position: "absolute",
                     transform: `translate(${getTranslation(slideId, currentSlideId)})`,
